@@ -7,9 +7,22 @@
     <title>Familjen Schluter</title>
     <meta name="description" content="Familjen Schluters hemsida">
     <meta name="author" content="Christian Schluter">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
+  <style>
+    img {
+            max-width: 100%;
+            height: auto;
+        }
+        /* Extra stil för att begränsa bildens storlek på större skärmar */
+        @media (min-width: 768px) {
+            img {
+                max-width: 50%;
+            }
+        }
+  </style>
   <body>
-    <a href="./hela_familjen/meny.html">
+    <a href="./meny.html">
     <img src="./images/hungry_dog_and_cat.jpg" alt="Hungrig pom och katt">
   </a>
     <!-- <header>
@@ -21,7 +34,7 @@
     </nav> -->
     <article>
       <!-- <h3>Vad ska vi äta?</h3> -->
-      <p><i>(Klicka på Macho eller Sven för att se vad vi ska äta ;-)</i></p>
+      <!-- <p><i>(Klicka på Macho eller Sven för att se vad vi ska äta ;-)</i></p> -->
     </article>
   </body>
 </html>
